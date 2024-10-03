@@ -1,0 +1,11 @@
+Algoritmo MediaYSuma
+	num = 0
+	cont = 0
+	Escribir "Pon los numeros que quieres hacer la suma y la media(Salir 0): "
+	Repetir
+		Leer num
+		numtot = numtot + num
+		cont = cont+1
+	Hasta Que num=0
+	Escribir "Media: " numtot/cont " Suma: " numtot
+FinAlgoritmo
