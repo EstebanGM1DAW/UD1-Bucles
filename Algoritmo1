@@ -1,0 +1,26 @@
+Proceso AdivinarEn10Intentos
+    Definir random, numUser, cont Como Entero
+    random <- Azar(100)
+    cont <- 1  
+
+    Mientras cont <= 10 Hacer
+        Escribir 'Intento ', cont, ': Pon un número (entre 0 y 99): '
+        Leer numUser
+
+        Si numUser = random Entonces
+            Escribir '¡ESE ERA! ¡LETS GO!'
+            Esperar 3 Segundos
+            cont <- 11  // Forzamos la salida del ciclo al poner cont fuera del rango
+        SiNo
+            Si numUser > random Entonces
+                Escribir 'Es mayor'
+            SiNo
+                Escribir 'Es menor'
+            FinSi
+            cont <- cont + 1
+        FinSi
+    FinMientras
+    Si cont = 11 Y numUser <> random Entonces
+        Escribir 'Se acabaron los intentos, el número era: ', random
+    FinSi
+FinProceso
