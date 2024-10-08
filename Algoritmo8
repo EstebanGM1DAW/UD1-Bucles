@@ -1,0 +1,11 @@
+Algoritmo Potencia
+	Escribir "Escribir numero (Base): " 
+	Leer base
+	Escribir "Numero: (Potencia): "
+	Leer pot
+	total = 1
+	Para cont<-1 Hasta pot Con Paso 1 Hacer
+		total = total*base
+	FinPara
+	Escribir "Total:" total
+FinAlgoritmo
