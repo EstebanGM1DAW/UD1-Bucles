@@ -1,0 +1,7 @@
+Algoritmo TablaMulti1Num
+	Escribir 'Dime un numero: '
+	Leer num
+	Para cont<-1 Hasta 10 Con Paso 1 Hacer
+		Escribir num "x" cont "=" cont*num
+	FinPara
+FinAlgoritmo
