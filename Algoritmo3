@@ -1,0 +1,19 @@
+Algoritmo MayorMenoroIgual
+	cont = 1
+	Escribir "Cuantos numeros quieres poner?"
+	Leer num
+	Para cont<-1 Hasta num Con Paso 1 Hacer
+		Escribir "Dime numero: "
+		Leer num2
+		Si num2>0 Entonces
+			may = may+1
+		SiNo
+			Si num2=0 Entonces
+				cer = cer+1
+			SiNo
+				men = men+1
+			FinSi
+		FinSi
+	FinPara
+	Escribir "Los numeros iguales a cero:" cer " Mayores:" may " Menores:" men
+FinAlgoritmo
