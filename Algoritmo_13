@@ -1,0 +1,15 @@
+Algoritmo Menu
+	Escribir "Como quieres que te saludemos? (4 para salir)"
+	Leer forma
+	Mientras forma = 1 o forma = 2 o forma=3 Hacer
+		Según forma Hacer
+			1:
+				Escribir "holiwi :3"
+			2:
+				Escribir "buenas"
+			3:
+				Escribir "Hola que tal"
+		FinSegún
+	FinMientras
+	Escribir "Adios"
+FinAlgoritmo
