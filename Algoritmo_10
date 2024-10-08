@@ -1,0 +1,20 @@
+Algoritmo NumeroPrimo
+	Definir num, primo, i Como Entero
+	Escribir 'Introduce un número: '
+	Leer num
+	primo <- 1
+	Si num<=1 Entonces
+		primo <- 0
+	SiNo
+		Para i<-2 Hasta Raiz(num) Con Paso 1 Hacer
+			Si num MOD i=0 Entonces
+				primo = 0
+			FinSi
+		FinPara
+	FinSi
+	Si primo=1 Entonces
+		Escribir num, ' es primo.'
+	SiNo
+		Escribir num, ' no es primo.'
+	FinSi
+FinAlgoritmo
